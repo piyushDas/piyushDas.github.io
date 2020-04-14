@@ -1,1 +1,85 @@
-<!doctype html><html lang="ru"><head><meta charset="utf-8"/><title>Generic Cart Application</title><meta name="description" content=""/><meta name="viewport" content="width=device-width,initial-scale=1,shrink-to-fit=no"/><meta http-equiv="X-UA-Compatible" content="ie=edge"/><link rel="shortcut icon" href="favicon.ico"/><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"><link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css"><script src="https://code.jquery.com/jquery-1.12.4.js"></script><script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script><meta property="og:description" content="A minimalistic webpack 4 based boilerplate for building web apps"/><link href="stylesheets/app.2d52b839.css" rel="stylesheet"></head><body><div id="root" class="container"></div><script type="text/javascript" src="scripts/app.2d52b839.js"></script></body></html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Index</title>
+    <style>
+        header {
+            font-size: 22px;
+            margin-bottom: 24px;
+            color: #36C;
+            font-weight: 600;
+        }
+        .link-container {
+            position: fixed;
+            left: 50%;
+            transform: translateX(-50%);
+            background: #f6fbff;
+            padding: 20px;
+            border: 2px solid #2196F3;
+            margin: 20px;
+            border-radius: 4px;
+            max-width: 400px;
+            width: 90%;
+        }
+        .link {
+            margin-bottom: 12px;
+        }
+        a {
+            color: #36c;
+            font-weight: 600;
+            text-decoration: none;
+        }
+
+        a:hover{
+            color: #E91E63;
+        }
+
+        p {
+            margin: 12px 0;
+        }
+        .description {
+            margin-top: 4px;
+            margin-bottom: 16px;
+            font-size: 14px;
+            font-style: italic;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="link-container">
+        <header>
+            Hosted applications currently
+        </header>
+        <div class="link">
+            <a href="./todo-list/index.html">To do list</a>
+            <div class="description">
+                An application with draggable todo list.
+            </div>
+        </div>
+        <div class="link">
+            <a href="./cart-app/index.html">Cart Application </a>
+            <div class="description">
+                A responsive generic cart application, with search, sort, filter featuress.
+            </div>
+        </div>
+
+        <div class="link">
+            <a href="./code-runner/index.html">Coderunner - camera based input app </a>
+            <div class="description">
+                A responsive application that has option to either upload a photo or click a photo and extract text from it based on preexposed APIs
+                Other features icluding cropping image using canvas.
+            </div>
+        </div>
+
+        <div class="link">
+            <a href="./circle-game/index.html">Circles - select random circle </a>
+            <div class="description">
+                A react application implementing a small game where a circle is randomly selected and if you select the same, you score
+            </div>
+        </div>
+    </div>
+</body>
+</html>
